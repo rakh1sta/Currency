@@ -1,0 +1,15 @@
+### load currencies from cbu
+GET http://localhost:8080/rate-api/load-rates/cbu
+### load currencies from nbu
+GET http://localhost:8080/rate-api/load-rates/nbu
+
+### get average rate of currency
+GET http://localhost:8080/rate-api/average/USD
+
+
+### get rate from cbu
+GET http://localhost:8080/rate-api/cbu/r
+### get rate from nbu
+GET http://localhost:8080/rate-api/nbu/USD
+
+

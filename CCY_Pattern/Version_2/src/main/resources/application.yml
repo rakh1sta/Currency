@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/remoteapi
+    username: postgres
+    password: 1303
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update

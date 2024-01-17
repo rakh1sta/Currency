@@ -1,0 +1,32 @@
+### For get currency by code
+GET http://localhost:8080/currency/840
+Accept: application/json
+
+
+### For get currency by code
+GET http://localhost:8080/currency/all
+Accept: application/json
+
+
+###
+GET http://localhost:8080/currency/salom
+
+
+### For creat new currency
+POST http://localhost:8080/currency/
+Content-Type: application/json
+
+{
+
+  "id": 123,
+  "Code": "",
+  "Ccy": "USD",
+  "CcyNm_RU": "Доллар США",
+  "CcyNm_UZ": "AQSH dollari",
+  "CcyNm_UZC": "АҚШ доллари",
+  "CcyNm_EN": "US Dollar",
+  "Nominal": "1",
+  "Rate": "12234.42",
+  "Diff": "15.19",
+  "Date": "01.11.2023"
+}

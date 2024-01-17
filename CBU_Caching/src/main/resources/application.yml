@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/currencies_caching
+    username: postgres
+    password: 1303
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
