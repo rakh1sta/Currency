@@ -7,6 +7,6 @@
   * JPA
   * Mupstruct
   * Intigration tesing with mockito
-* CBU_Cashing -> This version has added data caching future to the previous version
-  * 
-* CCY_PAttern
+* CBU_Cashing -> This version has added data caching future to the previous version and the testing is optimized
+  * Ehcache
+* CCY_Pattern -> in the last version, the structure has been modified and Stratage and Composite patterns have been added from Disegn patterns
